@@ -14,6 +14,10 @@ import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 import com.davidbaekeland.recepten.databinding.ActivityMainBinding
+import com.google.firebase.firestore.FirebaseFirestore
+
+//import com.google.firebase.firestore.FirebaseFirestore
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
@@ -37,7 +41,9 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-//        data()
+
+
+
     }
 
 

@@ -1,6 +1,7 @@
 package com.davidbaekeland.recepten.ui.dashboard
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,6 +9,9 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.davidbaekeland.recepten.databinding.FragmentDashboardBinding
+import com.davidbaekeland.recepten.models.Recept
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.ktx.toObject
 
 class DashboardFragment : Fragment() {
 
@@ -32,6 +36,7 @@ class DashboardFragment : Fragment() {
         dashboardViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
+
         return root
     }
 
@@ -39,4 +44,8 @@ class DashboardFragment : Fragment() {
         super.onDestroyView()
         _binding = null
     }
+
+
+
+
 }
