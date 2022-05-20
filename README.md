@@ -1,5 +1,8 @@
 # Android
 ## Referenties
+### Translate
+https://translate.google.com/
+
 ### Foto's + Data 
 https://spoonacular.com/
 
@@ -23,5 +26,3 @@ https://developer.android.com/codelabs/basic-android-kotlin-training-getting-dat
 https://www.youtube.com/watch?v=z0kSwLO3B3s
 
 
-### Translate
-https://translate.google.com/

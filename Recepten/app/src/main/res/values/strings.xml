@@ -17,6 +17,5 @@
     <string name="soja">Soja</string>
     <string name="lactose">Lactose</string>
     <string name="allergieen">Allergieën</string>
-    <string name="favoriet">favoriet</string>
-    <string name="Favoriet">favoriet</string>
+    <string name="Favoriet">Favoriet</string>
 </resources>
