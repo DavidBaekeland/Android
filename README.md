@@ -6,6 +6,10 @@ https://translate.google.com/
 ### Foto's + Data 
 https://spoonacular.com/
 
+https://pixabay.com/
+
+https://iconfinder.com/
+
 ### Recycleview
 Oefeningen -> DemoRecyclerView-master
 
