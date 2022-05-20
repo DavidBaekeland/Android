@@ -1,6 +1,20 @@
 <resources>
     <string name="app_name">Recepten</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_dashboard">Favorieten</string>
+    <string name="title_notifications">Lijstje</string>
+    <string name="lunch">Lunch</string>
+    <string name="Ontbijt">Ontbijt</string>
+    <string name="dinner">Dinner</string>
+    <string name="pasta">Pasta</string>
+    <string name="smooties">smooties</string>
+    <string name="oosters">Oosters</string>
+    <string name="type_gerechten">Type gerechten</string>
+    <string name="veggie">veggie</string>
+    <string name="vis">vis</string>
+    <string name="vlees">vlees</string>
+    <string name="noten">noten</string>
+    <string name="soja">soja</string>
+    <string name="lactose">lactose</string>
+    <string name="allergieen">Allergieën</string>
 </resources>

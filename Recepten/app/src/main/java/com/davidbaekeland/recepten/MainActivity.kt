@@ -1,6 +1,7 @@
 package com.davidbaekeland.recepten
 
 import android.os.Bundle
+import android.util.Log
 import android.widget.TextView
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
@@ -13,7 +14,6 @@ import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 import com.davidbaekeland.recepten.databinding.ActivityMainBinding
-
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
@@ -37,25 +37,31 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-
+//        data()
     }
 
-    fun test() {
+
+
+
+    fun data() {
         val textView = findViewById<TextView>(R.id.txt_test)
         // ...
 
         // Instantiate the RequestQueue.
-                val queue = Volley.newRequestQueue(this)
-                val url = "https://www.google.com"
+        val queue = Volley.newRequestQueue(this)
+        val url = "https://api.spoonacular.com/recipes/complexSearch?apiKey=48bfb05800e64a8d86c75214ef3d66ff&cuisine=italian&query=pasta"
 
         // Request a string response from the provided URL.
                 val stringRequest = StringRequest(
                     Request.Method.GET, url,
                     Response.Listener<String> { response ->
                         // Display the first 500 characters of the response string.
-                        textView.text = "Response is: ${response.substring(0, 500)}"
+                        //textView.text = "Response is: ${response.substring(0, 500)}"
+                        Log.d("response", response)
                     },
                     Response.ErrorListener { textView.text = "That didn't work!" })
+
+
 
         // Add the request to the RequestQueue.
                 queue.add(stringRequest)
