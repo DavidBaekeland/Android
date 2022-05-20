@@ -7,14 +7,14 @@
     <string name="Ontbijt">Ontbijt</string>
     <string name="dinner">Dinner</string>
     <string name="pasta">Pasta</string>
-    <string name="smooties">smooties</string>
+    <string name="smooties">Smoothies</string>
     <string name="oosters">Oosters</string>
     <string name="type_gerechten">Type gerechten</string>
-    <string name="veggie">veggie</string>
-    <string name="vis">vis</string>
-    <string name="vlees">vlees</string>
-    <string name="noten">noten</string>
-    <string name="soja">soja</string>
-    <string name="lactose">lactose</string>
+    <string name="veggie">Veggie</string>
+    <string name="vis">Vis</string>
+    <string name="vlees">Vlees</string>
+    <string name="noten">Noten</string>
+    <string name="soja">Soja</string>
+    <string name="lactose">Lactose</string>
     <string name="allergieen">Allergieën</string>
 </resources>

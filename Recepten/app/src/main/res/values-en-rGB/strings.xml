@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recipes</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Favorites</string>
+    <string name="title_notifications">List</string>
+    <string name="lunch">Lunch</string>
+    <string name="Ontbijt">Breakfast</string>
+    <string name="dinner">Dinner</string>
+    <string name="pasta">Pasta</string>
+    <string name="smooties">Smoothies</string>
+    <string name="oosters">Eastern</string>
+    <string name="type_gerechten">Type of dishes</string>
+    <string name="vis">Fish</string>
+    <string name="vlees">Meet</string>
+    <string name="noten">Nuts</string>
+    <string name="veggie">Veggie</string>
+    <string name="soja">Soya</string>
+    <string name="lactose">Lactose</string>
+    <string name="allergieen">Allergy</string>
+</resources>
