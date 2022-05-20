@@ -3,6 +3,8 @@
 https://xd.adobe.com/view/47647078-3c71-46ad-b7c3-2202a13a82a2-1237/
 
 ## Referenties
+https://developer.android.com/
+
 ### Translate
 https://translate.google.com/
 
