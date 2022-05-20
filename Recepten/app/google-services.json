@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "298930248459",
+    "project_id": "recepten-96239",
+    "storage_bucket": "recepten-96239.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298930248459:android:a2d7e89a7f90e68046e00e",
+        "android_client_info": {
+          "package_name": "com.davidbaekeland.recepten"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298930248459-lan60igrg7m5rdnuo535g1rt085voegi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYuJjC-IbhLQnTN5MIpV3NzX6J5k1SCcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298930248459-lan60igrg7m5rdnuo535g1rt085voegi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
