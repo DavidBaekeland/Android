@@ -16,7 +16,6 @@ import com.android.volley.toolbox.Volley
 import com.davidbaekeland.recepten.databinding.ActivityMainBinding
 import com.google.firebase.firestore.FirebaseFirestore
 
-//import com.google.firebase.firestore.FirebaseFirestore
 
 class MainActivity : AppCompatActivity() {
 

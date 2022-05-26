@@ -3,17 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="190dp"
     tools:context=".ui.home.HomeFragment">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv_recept_item"
-        android:layout_width="170dp"
-        android:layout_height="82dp"
-        android:layout_weight="1"
+        android:layout_width="300dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="30dp"
 
+        android:layout_marginRight="30dp"
+        android:layout_weight="1"
+        android:background="@drawable/ontbijt"
         app:cardCornerRadius="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -21,26 +23,34 @@
         <ImageView
             android:id="@+id/img"
             android:layout_width="match_parent"
-            android:layout_height="101dp"
+            android:layout_height="match_parent"
             android:contentDescription="@string/Ontbijt"
             android:src="@drawable/ontbijt" />
 
-        <ImageView
-            android:id="@+id/favorite"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="124dp"
-            android:layout_marginTop="10dp"
+        <Button
+            android:id="@+id/img_favorite"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:contentDescription="@string/Favoriet"
-            android:src="@drawable/ic_favorite" />
+            android:background="@drawable/ic_favorite"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="15dp"/>
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/img_favorite"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            -->
+        <!--            android:contentDescription="@string/Favoriet"-->
+        <!--            android:src="@drawable/ic_favorite" />-->
 
         <TextView
             android:id="@+id/txt_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="15dp"
 
-            android:layout_marginTop="54dp"
+            android:layout_marginTop="128dp"
             android:background="#BFFFFFFF"
             android:paddingLeft="4dp"
             android:paddingRight="4dp"

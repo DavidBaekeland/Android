@@ -1,4 +1,4 @@
 package com.davidbaekeland.recepten.models
 
-data class Recept(val image: String? = null, val name: String? = null) {
+data class Recept(var id: Int, val image: String, val title: String) {
 }
