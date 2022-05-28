@@ -11,9 +11,9 @@
         android:icon="@drawable/ic_favorite"
         android:title="@string/title_dashboard" />
 
-    <item
-        android:id="@+id/navigation_notifications"
-        android:icon="@drawable/ic_shop"
-        android:title="@string/title_notifications" />
+<!--    <item-->
+<!--        android:id="@+id/navigation_notifications"-->
+<!--        android:icon="@drawable/ic_shop"-->
+<!--        android:title="@string/title_notifications" />-->
 
 </menu>
