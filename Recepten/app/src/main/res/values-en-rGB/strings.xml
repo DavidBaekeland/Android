@@ -19,4 +19,5 @@
     <string name="lactose">Lactose</string>
     <string name="allergieen">Allergy</string>
     <string name="Favoriet">Favorite</string>
+    <string name="terug">Back</string>
 </resources>
