@@ -111,8 +111,4 @@ class NotificationsFragment : Fragment() {
     // https://github.com/google/gson/blob/master/UserGuide.md
     // https://github.com/google/gson
     // https://stackoverflow.com/questions/68463691/android-kotlin-volley-how-to-get-value-from-jsonarray
-
-//    fun data() {
-//
-//    }
 }

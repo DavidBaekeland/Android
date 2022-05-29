@@ -44,13 +44,6 @@ class HomeFragment : Fragment() {
         // https://romannurik.github.io/AndroidAssetStudio/nine-patches.html#&sourceDensity=320&name=example
         // https://developer.android.com/guide/navigation/navigation-navigate
         // https://developer.android.com/guide/navigation/navigation-pass-data
-//        var button: Button = binding.btnTest
-//        button.setOnClickListener { view ->
-//            var recept = "curry"
-//            val action = HomeFragmentDirections.actionNavigationHomeToNavigationNotifications(recept)
-//            view.findNavController().navigate(action)
-//        }
-
         var breakfast: CardView = binding.cvOntbijt
         filter(breakfast, "breakfast")
 
@@ -87,9 +80,6 @@ class HomeFragment : Fragment() {
         var soja: CardView = binding.cvSoja
         filter(soja, "soja")
 
-
-
-//        data()
         return root
     }
 
@@ -99,6 +89,7 @@ class HomeFragment : Fragment() {
         cardView.setOnClickListener { view ->
             val action = HomeFragmentDirections.actionNavigationHomeToNavigationNotifications(filter)
             view.findNavController().navigate(action)
+
         }
     }
 
@@ -107,22 +98,4 @@ class HomeFragment : Fragment() {
         _binding = null
     }
 
-
-//    fun data() {
-//        val receptenService = ReceptenService.create().getPasta()
-//
-//
-//        receptenService.enqueue( object : Callback<List<Recept>> {
-//            override fun onResponse(
-//                call: Call<List<Recept>>,
-//                response: retrofit2.Response<List<Recept>>
-//            ) {
-//                Log.d("qsdf", response.body().toString())
-//            }
-//
-//            override fun onFailure(call: Call<List<Recept>>?, t: Throwable?) {
-//                Log.d("q", "error")
-//            }
-//        })
-//    }
 }
