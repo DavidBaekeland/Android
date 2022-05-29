@@ -41,6 +41,7 @@ class HomeFragment : Fragment() {
             textView.text = it
         }
 
+        // https://romannurik.github.io/AndroidAssetStudio/nine-patches.html#&sourceDensity=320&name=example
         // https://developer.android.com/guide/navigation/navigation-navigate
         // https://developer.android.com/guide/navigation/navigation-pass-data
 //        var button: Button = binding.btnTest
