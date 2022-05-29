@@ -112,8 +112,8 @@
 
         <ImageView
             android:id="@+id/img_dinner"
-            android:layout_width="match_parent"
-            android:layout_height="113dp"
+            android:layout_width="196dp"
+            android:layout_height="match_parent"
             android:contentDescription="@string/dinner"
             android:src="@drawable/dinner" />
 
@@ -174,8 +174,8 @@
 
                 <ImageView
                     android:id="@+id/img_pasta"
-                    android:layout_width="match_parent"
-                    android:layout_height="79dp"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent"
                     android:contentDescription="@string/pasta"
                     android:src="@drawable/dinner" />
 
@@ -411,6 +411,7 @@
             android:layout_width="120dp"
             android:layout_height="72dp"
 
+            android:layout_marginBottom="20dp"
             android:layout_weight="1"
             app:cardCornerRadius="20dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -493,7 +494,7 @@
             <ImageView
                 android:id="@+id/img_soja"
                 android:layout_width="match_parent"
-                android:layout_height="82dp"
+                android:layout_height="84dp"
                 android:contentDescription="@string/soja"
                 android:src="@drawable/soja3" />
 
@@ -514,5 +515,16 @@
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_test"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="56dp"-->
+<!--        android:text="Button"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/lv_type"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/cv_dinner"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
