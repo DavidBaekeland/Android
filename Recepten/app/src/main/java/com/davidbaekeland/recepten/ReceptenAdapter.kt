@@ -26,7 +26,6 @@ class ReceptenAdapter(var recepten: MutableList<Recept>) : RecyclerView.Adapter<
             imgUrl = view.findViewById(R.id.img)
             button = view.findViewById(R.id.img_favorite)
 
-
         }
 
 
@@ -54,7 +53,7 @@ class ReceptenAdapter(var recepten: MutableList<Recept>) : RecyclerView.Adapter<
         var repository = Repository()
 
         var db = FirebaseFirestore.getInstance()
-        var recept = db.collection("recepten").document(recepten[position].id.toString())
+        var recept = db.collection("favorieten").document(recepten[position].id.toString())
         recept.get()
             .addOnSuccessListener { document ->
                 if (document.exists()) {
@@ -64,6 +63,7 @@ class ReceptenAdapter(var recepten: MutableList<Recept>) : RecyclerView.Adapter<
             .addOnFailureListener { exception ->
                 Log.w("TAG", "Error getting documents.", exception)
             }
+
 
         holder.button.setOnClickListener {
             holder.button.setBackgroundResource(R.drawable.ic_favorite2)

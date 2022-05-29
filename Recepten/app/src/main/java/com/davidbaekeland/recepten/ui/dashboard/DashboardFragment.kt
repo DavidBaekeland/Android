@@ -62,10 +62,9 @@ class DashboardFragment : Fragment() {
         // https://stackoverflow.com/questions/38802269/firebase-user-is-missing-a-constructor-with-no-arguments
         var favoriteList: MutableList<Recept> = mutableListOf()
 
-        val docRef = db.collection("recepten")
+        val docRef = db.collection("favorieten")
         docRef.get()
             .addOnSuccessListener { document ->
-
                 for (result in document) {
                     val recept = result.toObject<Recept>()
                     favoriteList.add(recept)
